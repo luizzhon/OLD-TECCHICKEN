@@ -1,10 +1,7 @@
   html {
   height: 100%;
   overflow: hidden;
-
-  
-}
-  
+  }
   body {
     margin: 0;
     padding: 0;
@@ -15,7 +12,6 @@
     overflow-x: hidden;
     scroll-behavior: smooth;
   }
-  
   .logo {
     margin-left: 40%;
     margin-top: 5%;
@@ -26,12 +22,10 @@
    nav {
     float: right;
   }
-  
   ul {
     list-style: none;
-    margin-top: 32px;
-  }
-  
+    margin-top: 3%;
+  } 
   ul li {
     display: inline;
     margin-right: 15px;
@@ -45,7 +39,6 @@
   a:link   { 
   text-decoration:none; 
   } 
-
   ul li a:hover {  
     text-shadow: 3px 1px 1px rgb(0, 0, 0);
     transition: 0.1s;
@@ -61,7 +54,7 @@
     font-size: 35px;
  
   }
-.contato {
+  .contato {
   color: white;
   margin-top: 8%;
   text-align: center;
@@ -72,7 +65,7 @@
     background-size: cover;
   }
   #problema {    
-    background-color: white;
+    background-color: #FFC000;
     background-repeat: no-repeat;
     background-size:cover;
     margin-top: 0;
@@ -84,6 +77,11 @@
     background-size: cover;
 
   }
+  #copyright {
+    background-color: #7E008C;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
   .slide {
     position: relative;
     min-height: 100%;
@@ -92,13 +90,82 @@
     box-sizing: border-box;
     box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.7);
   }
-h1
-  {
-    color: #ff5b15;
+  .slide2 {
+    position: relative;
+    min-height: 70%;
+    width: 100%;
+    transform-style: inherit;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.7);
+  }
+  .slide3 {
+    position: relative;
+    min-height: 70%;
+    width: 100%;
+    transform-style: inherit;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.7);
+  }
+  .copy {
+    position: relative;
+    min-height: 10%;
+    width: 100%;
+    transform-style: inherit;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.7);
+  }
+  h1 {
+    color: #7E008C;
     font-weight: bold;
     text-align: center; 
-    padding-top: 3%;  
+    padding-top: 2%;  
     margin-top: 0%;
     text-transform: uppercase;  
     font-size: 35px;
+  }
+  .copyrighttxt {
+  color: #FFC000;
+  margin-top: 0%;
+  padding-top: 1.5%;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;  
+  font-size: 23px;
+  }
+  .problematxt {
+    color: black;
+    margin-top: 3%;
+    text-align: justify;
+    font-size: 28px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .nome {
+    color: #7E008C
+  }
+  .galinha {
+
+    padding-top: 1%;
+    padding-bottom: 2%;
+    width: 20%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .mapa {
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 3%;
+    margin-bottom: 2%;
+
+  }
+  .subir {
+    width: 5%;
+    height: 5%;
+    display: block;
+    margin-left: auto;
+    margin-right:5px;
+    padding-bottom: 1%;
   }
