@@ -53,25 +53,19 @@ body {
 
   }
   /* ----------------------------------------------Imagem Galinha------------------------------------------------------- */
-
-  .img_galinha{
-    color: #FFC000;
-
-  }
   .img_g{
-    height: 691.5px;
+    width: 100%;
   }
 
   .galinha{
+    color: #FFC000;
     position: absolute;
-    left: 490px;
-    top: 353px;
+    left: 32%;
+    top: 49%;
     font-size: 90px;
     font-weight: bold;
   }
-
   /* -----------------------------------------------Texto Quem Somos------------------------------------------------------------ */
-
   .text_QuemSomos{
     font-size: 17px;
     text-align: center;
@@ -79,9 +73,7 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
   }
-
   /* -----------------------------------------------Time------------------------------------------------------------ */
-
   .time{
     background: #7E008C;
     height: 718px;
@@ -286,7 +278,7 @@ body {
     height: 200px;
     border-radius: 100px;
     position: relative;
-    top: 350px;
+    bottom: 310px;
     left: 110px;
   }
 
@@ -296,8 +288,8 @@ body {
     height: 200px;
     border-radius: 100px;
     position: relative;
-    top: 350px;
-    left: 110px;
+    bottom: 510px;
+    left: 380px;
   }
 
   .bolinha_Roxa8{
@@ -306,8 +298,8 @@ body {
     height: 200px;
     border-radius: 100px;
     position: relative;
-    top: 350px;
-    left: 110px;
+    bottom: 710px;
+    left: 650px;
   }
 
   .bolinha_Roxa9{
@@ -316,8 +308,8 @@ body {
     height: 200px;
     border-radius: 100px;
     position: relative;
-    top: 350px;
-    left: 110px;
+    bottom: 910px;
+    left: 920px;
   }
 
   .bolinha_Roxa10{
@@ -326,8 +318,8 @@ body {
     height: 200px;
     border-radius: 100px;
     position: relative;
-    top: 350px;
-    left: 110px;
+    bottom: 1110px;
+    left: 1200px;
   }
 
   .img_icone{
@@ -335,4 +327,31 @@ body {
     height: 120px;
     margin-top: 37px;
     margin-left: 39px;
+  }
+
+  .text_bolinha{
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .text_roxo{
+    color: #7E008C;
+    font-weight: bold;
+    margin-top: 20px;
+    position: relative;
+    margin-top: 70px;
+  }
+
+  .rodape{
+    background-color: #7E008C;
+    color:#FFC000;
+    height: 30px;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .text_rodape{
+    position: relative;
+    top: 3px;
   }
