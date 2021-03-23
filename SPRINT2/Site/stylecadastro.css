@@ -87,7 +87,11 @@ margin-top: 10px;
     display: flex;
     justify-self: center;
     align-self: center;
+}
 
+.formulario {
+  height: 10%;
+  width: 100%;
 }
 
 .left_login{
