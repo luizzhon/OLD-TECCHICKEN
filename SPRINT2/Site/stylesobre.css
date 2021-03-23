@@ -1,54 +1,338 @@
 body {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Kulim Park', sans-serif;
+  }
 
-.cabecalho {
-  padding-top: 0px;
-  background: #8e0e7f;
-  width: 100%;
-  height: 80px;
-  padding-bottom: 0px;
-  overflow: auto;
-  border-bottom: 3px solid #ff5b15 ;
-}
+  .cabecalho {
+    padding-top: 0px;
+    background: #8e0e7f;
+    width: 100%;
+    height: 80px;
+    padding-bottom: 0px;
+    overflow: auto;
+    border-bottom: 3px solid #ff5b15 ;
+  }
+  
+  .logo {
+    margin-left: 1%;
+    width: 15%;
+    height: 90%;
+    float: left;
+  }
+  
+  .cabecalho nav {
+    float: right;
+  }
+  
+  ul {
+    list-style: none;
+    margin-top: 32px;
+  }
+  
+  ul li {
+    display: inline;
+    margin-right: 25px;
+    text-transform: uppercase;    
+  }
+  ul li a {
+    color: white;
+    font-weight: bold;
+  
+  }
+  a:link 
+  { 
+  text-decoration:none; 
+  } 
 
-.logo {
-  margin-left: 1%;
-  width: 15%;
-  height: 90%;
-  float: left;
-}
+  ul li a:hover {  
+    text-shadow: 3px 1px 1px rgb(0, 0, 0);
+    transition: 0.1s;
+    color: #ff5b15;
 
-.cabecalho nav {
-  float: right;
-}
+  }
+  /* ----------------------------------------------Imagem Galinha------------------------------------------------------- */
 
-ul {
-  list-style: none;
-  margin-top: 32px;
-}
+  .img_galinha{
+    color: #FFC000;
 
-ul li {
-  display: inline;
-  margin-right: 25px;
-  font-family: "Century Gothic";
-  text-transform: uppercase;    
-}
-ul li a {
-  color: white;
-  font-weight: bold;
+  }
+  .img_g{
+    height: 691.5px;
+  }
 
-}
-a:link 
-{ 
-text-decoration:none; 
-} 
+  .galinha{
+    position: absolute;
+    left: 490px;
+    top: 353px;
+    font-size: 90px;
+    font-weight: bold;
+  }
 
-ul li a:hover {  
-  text-shadow: 3px 1px 1px rgb(0, 0, 0);
-  transition: 0.1s;
-  color: #ff5b15;
+  /* -----------------------------------------------Texto Quem Somos------------------------------------------------------------ */
 
-}
+  .text_QuemSomos{
+    font-size: 17px;
+    text-align: center;
+    font-weight:bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  /* -----------------------------------------------Time------------------------------------------------------------ */
+
+  .time{
+    background: #7E008C;
+    height: 718px;
+  }
+
+  .text_team{
+    color: #FFC000;
+    font-size: 45px;
+    font-weight: bold;
+    margin-left: 545px;
+    position: relative;
+    top: 60px;
+  }
+
+  .bolinha_Amarela1{
+    background: #FFC000;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    top: 350px;
+    left: 110px;
+  }
+
+  .bolinha_Amarela2{
+    background: #FFC000;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 80px;
+    left: 350px;
+  }
+
+  .bolinha_Amarela3{
+    background: #FFC000;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 50px;
+    left: 660px;
+  }
+
+  .bolinha_Amarela4{
+    background: #FFC000;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 480px;
+    left: 950px;
+  }
+
+  .bolinha_Amarela5{
+    background: #FFC000;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 450px;
+    left: 1210px;
+  }
+
+  .text_antonio{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 56px;
+    top: 220px;
+  }
+
+  .text_brunno{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 70px;
+    top: 220px;
+  }
+
+  .text_gustavo{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 52px;
+    top: 220px;
+  }
+
+  .text_luiz{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 77px;
+    top: 220px;
+  }
+
+  .text_vitoria{
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 63px;
+    top: 220px;
+  }
+
+  .img_foto{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+
+  /* -----------------------------------------------Text Serviços------------------------------------------------------------ */
+
+  .servicos{
+    color: #FFC000;
+    font-size: 48px;
+    text-align: center;
+    font-weight:bold;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+   /* -----------------------------------------------Como faremos?------------------------------------------------------------ */
+
+   .como_faremos{
+     background-color: #FFC000;
+     height: 1156px;
+   }
+
+   .text_como_faremos_isso{
+     color: #7E008C;
+     font-size: 30px;
+     position: absolute;
+     margin-top: 60px;
+     margin-left: 630px;
+   }
+
+   .bolinha_Roxa1{
+    background: #7E008C;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    top: 230px;
+    left: 110px;
+  }
+
+  .bolinha_Roxa2{
+    background: #7E008C;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    top: 30px;
+    left: 380px;
+  }
+
+  .bolinha_Roxa3{
+    background: #7E008C;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 170px;
+    left: 650px;
+  }
+
+  .bolinha_Roxa4{
+    background: #7E008C;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 370px;
+    left: 920px;
+  }
+
+  .bolinha_Roxa5{
+    background: #7E008C;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    bottom: 570px;
+    left: 1200px;
+  }
+
+  .bolinha_Roxa6{
+    background: #7E008C;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    top: 350px;
+    left: 110px;
+  }
+
+  .bolinha_Roxa7{
+    background: #7E008C;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    top: 350px;
+    left: 110px;
+  }
+
+  .bolinha_Roxa8{
+    background: #7E008C;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    top: 350px;
+    left: 110px;
+  }
+
+  .bolinha_Roxa9{
+    background: #7E008C;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    top: 350px;
+    left: 110px;
+  }
+
+  .bolinha_Roxa10{
+    background: #7E008C;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    position: relative;
+    top: 350px;
+    left: 110px;
+  }
+
+  .img_icone{
+    width: 120px;
+    height: 120px;
+    margin-top: 37px;
+    margin-left: 39px;
+  }

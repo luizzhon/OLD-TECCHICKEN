@@ -1,0 +1,60 @@
+Fonte:
+
+Kulim Park
+
+Cores: 
+
+Roxo - #7E008C;
+Outro Roxo - #8e0e7f;
+Laranja escuro - #F98323;
+Laranja Claro - #FFC000;
+Outro Laranja: #ff5b15;
+
+---------------------------------------------------------------
+*Quem Somos
+
+Somos a empresa Tec Chicken, uma startup fundada em 2020 com o panorama concentrado análise de 
+temperatura da sua granja, com o propósito de um excelente resultado na qualidade dos ovos e no 
+bem-estar das aves, onde o granjeiro é informado por um Sistema Smart Sensor que alerta sobre o 
+aumento da temperatura ideal para suas galinhas.
+
+Conheça nosso time:
+
+*Gustavo Quaresma - Fundador
+*Luiz Henrique - Fundador
+
+*Antônio Monteiro - Rsponsavel
+*Bruno Costa - Negócios(Back-end)
+*Vitória da Silva - Front-end
+
+
+--------------------------------------------------------------------------------------------------------------
+*Serviços
+
+Nesses últimos anos o planeta vem encontrado transformações climáticas, o aquecimento global,
+com essa irregularidade um dos setores que está sendo afetado é o da Avicultura, as temperaturas
+estão ficando elevadas, e com isso um número de aves vem morrido gerando uma perda economica. 
+
+A Tec Chicken tem como objetivo melhorar as decisões no segmento da avicultura, reunir dados 
+que apontem a necessidade de atenção em determinada horas com a granja, auxiliando o granjeiro
+a ter uma visão ampla do seu negócio e observando o que está acontecendo com as suas aves, 
+tendo um controle de temperatura que ajude a evitar perdas.
+
+--------------------------------------------------------------------------------------------------------------------
+*Diagrama de Solução
+
+
+1. granja
+2. sensores
+3. site
+4. usuario Granjeiro
+5. login
+6. graficos 
+ grafico azul
+ grafico vermelho
+ temp ideal
+ monitoramento
+
+
+
+
