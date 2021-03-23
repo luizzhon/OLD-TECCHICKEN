@@ -9,7 +9,7 @@ body {
   font-family: "Kulim Park";
 }
 
-.banana {
+.tela_inteira {
   height: 90%;
   width: 100%;
   display: flex;
@@ -73,14 +73,11 @@ text-align: center;
 height: 50px; 
 margin-left: 10px; 
 margin-top: 10px; 
-border: solid; border-color: 
-orange; border-radius: 25%; 
-background: darkblue;
 }
 
 .quadrado{
-  height: 800px;
-  width: 1500px;
+  height: 90%;
+  width: 80%;
   border-radius: 5%;
   background-color: black;
   opacity: 70%;

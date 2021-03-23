@@ -2,10 +2,19 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  height: 100vh;
   background-image: url("fundo1.jpeg") ;
   background-repeat: no-repeat;
-  background-size: 100% ;
+  background-size: 100%;
   font-family: "Kulim Park";
+}
+
+.tela_inteira {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo {
@@ -64,9 +73,6 @@ text-align: center;
 height: 50px; 
 margin-left: 10px; 
 margin-top: 10px; 
-border: solid; border-color: 
-orange; border-radius: 25%; 
-background: darkblue;
 }
 
 .quadrado{
@@ -78,37 +84,35 @@ background: darkblue;
   border: solid;
   border-color: orange;
     display: flex;
-    flex-direction: column;
     justify-self: center;
     align-self: center;
-    margin: auto;
+
 }
 
-.left_cadastro{
-  height: 800px;
-  width: 750px;
+.left_login{
+  height: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
-  justify-self: left;
   align-items: center;
-  margin: auto;
+  justify-content: center;
   }
 
+  
 .right_cadastro{
-  height: 800px;
-  width: 750px;
+  height: 100%;
+  width: 50%;
   display: flex;
   flex-direction: column;
-  justify-self: right;
   align-items: center;
-  margin: auto;
+  justify-content: center;
 }
 
 input{
   height: 40px;
   width: 400px;
 
-  margin-bottom: 5px;
+  margin-bottom: 50px;
 
   border-radius: 5px;
 
