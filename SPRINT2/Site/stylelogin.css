@@ -23,6 +23,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
+  height: 50%;
   margin: auto;
     
 }
@@ -109,30 +110,10 @@ margin-top: 10px;
 }
 
 input{
-  height: 40px;
-  width: 400px;
+  height: 5%;
+  width: 40%;
 
   margin-bottom: 50px;
-
-  border-radius: 5px;
-
-  font-size: 20px;
-  font-family:"Kulim Park";
-
-  text-align: center;
-  outline: none;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-select{
-  height: 40px;
-  width: 400px;
-
-  margin-bottom: 5px;
 
   border-radius: 5px;
 
@@ -159,7 +140,7 @@ select{
   border: 1px solid;
   border-radius: 10px;
   padding: 10px;
-  width: 100px;
+  width: 100%;
 }
 
 button:hover {  
@@ -172,7 +153,7 @@ button:hover {
 .texto{
   font-family: "Kulim Park";
   color: white;
-  font-size: 45px;
+  font-size: 280%;
   display: flex;
   flex-direction: column;
   justify-content: center;

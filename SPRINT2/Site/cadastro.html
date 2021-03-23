@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="stylelogin.css">
+  <link rel="stylesheet" href="stylecadastro.css">
   <link rel="icon" type="imagem/png" href="icone.png">
   <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:wght@200;700&display=swap" rel="stylesheet">
   <title>TEC CHICKEN</title>
@@ -32,27 +32,69 @@
 
   <div id="campo_texto" class="quadrado">
     
+<div id="id_formulario" class="formulario">
+
+    <p class="texto">Preencha seu cadastro</p>
+
+  </div>
+
     <div id="campo_login" class="left_login">
-    
-    <p class="texto">Já sou um cliente</p>
 
-    <input id="login" type="text" placeholder="Login">
+    <input id="login" type="text" placeholder="Login de usuário">
 
+    <input id="e-mail" type="email" placeholder="E-mail">
+ 
     <input id="senha" type="password" placeholder="Senha">
-
-    <a href="logged.html"><button class="button">Entrar</button></a> 
+ 
+    <input id="nome" type="text" placeholder="Nome completo">
+ 
+    <input id="data_nascto" type="text" placeholder="Data de nascimento" onfocus="(this.type='date')" onblur="(this.type='text')">
+ 
+    <input id="cpf" type="text" placeholder="CPF">
 
   </div>  
 
     <div id="campo_cadastro" class="right_cadastro">
     
-      <p class="texto">Quero ser um cliente</p>
-  
-      <input id="e-mail" type="email" placeholder="E-mail">
-  
-      <input id="senha" type="password" placeholder="Senha">
-  
-      <a href="cadastro.html"><button class="button">Cadastre-se</button></a> 
+      <input id="CEP" type="text" placeholder="CEP">
+
+      <input id="endereço" type="text" placeholder="Endereço">
+
+      <input id="numero" type="text" placeholder="Número">
+
+      <input id="complemento" type="text" placeholder="Complemento">
+
+      <select id="estado">
+        <option>Estado</option>
+        <option>AC</option>
+        <option>AL</option>
+        <option>AP</option>
+        <option>AM</option>
+        <option>BA</option>
+        <option>CE</option>
+        <option>DF</option>
+        <option>ES</option>
+        <option>GO</option>
+        <option>MA</option>
+        <option>MT</option>
+        <option>MS</option>
+        <option>MG</option>
+        <option>PA</option>
+        <option>PB</option>
+        <option>PR</option>
+        <option>PE</option>
+        <option>PI</option>
+        <option>RJ</option>
+        <option>RN</option>
+        <option>RS</option>
+        <option>RO</option>
+        <option>RR</option>
+        <option>SC</option>
+        <option>SP</option>
+        <option>SE</option>
+        <option>TO</option>
+
+        <input id="cidade" type="text" placeholder="Cidade">
    
   </div>
 </div>
