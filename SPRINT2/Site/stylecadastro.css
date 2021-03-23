@@ -2,19 +2,10 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
-  height: 100vh;
   background-image: url("fundo1.jpeg") ;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% ;
   font-family: "Kulim Park";
-}
-
-.banana {
-  height: 90%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .logo {
@@ -87,35 +78,37 @@ background: darkblue;
   border: solid;
   border-color: orange;
     display: flex;
+    flex-direction: column;
     justify-self: center;
     align-self: center;
-
+    margin: auto;
 }
 
-.left_login{
-  height: 100%;
-  width: 50%;
+.left_cadastro{
+  height: 800px;
+  width: 750px;
   display: flex;
   flex-direction: column;
+  justify-self: left;
   align-items: center;
-  justify-content: center;
+  margin: auto;
   }
 
-  
 .right_cadastro{
-  height: 100%;
-  width: 50%;
+  height: 800px;
+  width: 750px;
   display: flex;
   flex-direction: column;
+  justify-self: right;
   align-items: center;
-  justify-content: center;
+  margin: auto;
 }
 
 input{
   height: 40px;
   width: 400px;
 
-  margin-bottom: 50px;
+  margin-bottom: 5px;
 
   border-radius: 5px;
 
