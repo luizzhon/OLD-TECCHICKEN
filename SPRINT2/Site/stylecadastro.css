@@ -7,6 +7,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   font-family: "Kulim Park";
+  overflow-y: hidden;
 }
 
 .tela_inteira {
@@ -33,7 +34,7 @@ body {
 ul {
   float: right;
   list-style: none;
-  margin-top: 32px;
+  margin-top: 1%;
 }
 
 ul li {
@@ -153,7 +154,7 @@ select{
 }
 
 .campo_botao {
-  height: 10%;
+  height: 5%;
   width: 100%;
   display: flex;
   justify-content: center;
