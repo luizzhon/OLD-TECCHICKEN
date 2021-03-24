@@ -13,7 +13,7 @@
 
 <body>
 
-  <nav> 
+  <nav>
 
     <a href="index.html">
       <img src="LogoDeitadaComContorno.png" class="logo_pagina_inicial"></a>
@@ -25,80 +25,92 @@
       <li><a href="login.html">Login</a></li>
     </ul>
   </nav>
-  
+
   <div class="tela_inteira">
 
-  <img class="logo" src="logotecchicken.png" alt="logo da empresa">
+    <img class="logo" src="logotecchicken.png" alt="logo da empresa">
 
-  <div id="campo_texto" class="quadrado">
-    
-<div id="id_formulario" class="formulario">
+    <div id="campo_texto" class="quadrado">
 
-    <p class="texto">Preencha seu cadastro</p>
+      <div id="id_formulario" class="formulario">
 
-  </div>
+        <p class="texto">Preencha seu cadastro</p>
 
-    <div id="campo_login" class="left_login">
+      </div>
 
-    <input id="login" type="text" placeholder="Login de usuário">
+      <div id="parte_baixo" class="campos_cadastro">
 
-    <input id="e-mail" type="email" placeholder="E-mail">
- 
-    <input id="senha" type="password" placeholder="Senha">
- 
-    <input id="nome" type="text" placeholder="Nome completo">
- 
-    <input id="data_nascto" type="text" placeholder="Data de nascimento" onfocus="(this.type='date')" onblur="(this.type='text')">
- 
-    <input id="cpf" type="text" placeholder="CPF">
+        <div id="campo_left" class="left_cadastro">
 
-  </div>  
+          <input id="login" type="text" placeholder="Login de usuário">
 
-    <div id="campo_cadastro" class="right_cadastro">
-    
-      <input id="CEP" type="text" placeholder="CEP">
+          <input id="e-mail" type="email" placeholder="E-mail">
 
-      <input id="endereço" type="text" placeholder="Endereço">
+          <input id="senha" type="password" placeholder="Senha">
 
-      <input id="numero" type="text" placeholder="Número">
+          <input id="nome" type="text" placeholder="Nome completo">
 
-      <input id="complemento" type="text" placeholder="Complemento">
+          <input id="data_nascto" type="text" placeholder="Data de nascimento" onfocus="(this.type='date')"
+            onblur="(this.type='text')">
 
-      <select id="estado">
-        <option>Estado</option>
-        <option>AC</option>
-        <option>AL</option>
-        <option>AP</option>
-        <option>AM</option>
-        <option>BA</option>
-        <option>CE</option>
-        <option>DF</option>
-        <option>ES</option>
-        <option>GO</option>
-        <option>MA</option>
-        <option>MT</option>
-        <option>MS</option>
-        <option>MG</option>
-        <option>PA</option>
-        <option>PB</option>
-        <option>PR</option>
-        <option>PE</option>
-        <option>PI</option>
-        <option>RJ</option>
-        <option>RN</option>
-        <option>RS</option>
-        <option>RO</option>
-        <option>RR</option>
-        <option>SC</option>
-        <option>SP</option>
-        <option>SE</option>
-        <option>TO</option>
+          <input id="cpf" type="text" placeholder="CPF">
 
-        <input id="cidade" type="text" placeholder="Cidade">
-   
-  </div>
-</div>
-</body>
+        </div>
+
+        <div id="campo_right" class="right_cadastro">
+
+          <input id="CEP" type="text" placeholder="CEP">
+
+          <input id="endereço" type="text" placeholder="Endereço">
+
+          <input id="numero" type="text" placeholder="Número">
+
+          <input id="complemento" type="text" placeholder="Complemento">
+
+          <select id="estado">
+            <option value="" disabled selected>Estado</option>
+            <option>AC</option>
+            <option>AL</option>
+            <option>AP</option>
+            <option>AM</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>DF</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MA</option>
+            <option>MT</option>
+            <option>MS</option>
+            <option>MG</option>
+            <option>PA</option>
+            <option>PB</option>
+            <option>PR</option>
+            <option>PE</option>
+            <option>PI</option>
+            <option>RJ</option>
+            <option>RN</option>
+            <option>RS</option>
+            <option>RO</option>
+            <option>RR</option>
+            <option>SC</option>
+            <option>SP</option>
+            <option>SE</option>
+            <option>TO</option>
+
+            <input id="cidade" type="text" placeholder="Cidade">
+
+        </div>
+        
+      </div>
+      
+            <div id="idbotao" class="campo_botao">
+          
+              <a href="login.html"><button class="botao_cadastro" onclick="alert('Os seus dados foram enviados para a empresa, aguarde contato por e-mail')">Cadastre-se</button></a>
+          
+            </div>
+      
+    </div>
+  </body>
 
 </html>
 <script src=" script.js">

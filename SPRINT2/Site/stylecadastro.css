@@ -84,7 +84,7 @@ margin-top: 10px;
   opacity: 70%;
   border: solid;
   border-color: orange;
-    display: flex;
+    flex-direction: row;
     justify-self: center;
     align-self: center;
 }
@@ -94,9 +94,15 @@ margin-top: 10px;
   width: 100%;
 }
 
-.left_login{
+.campos_cadastro{
+  display: flex;
+  height: 75%;
+  justify-content: center;
+}
+
+.left_cadastro{
   height: 100%;
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -106,7 +112,7 @@ margin-top: 10px;
   
 .right_cadastro{
   height: 100%;
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -114,8 +120,24 @@ margin-top: 10px;
 }
 
 input{
-  height: 5%;
-  width: 40%;
+  height: 10%;
+  width: 70%;
+
+  margin-bottom: 50px;
+
+  border-radius: 5px;
+
+  font-size: 150%;
+  font-family:"Kulim Park";
+
+  text-align: center;
+  outline: none;
+  
+}
+
+select{
+  height: 10%;
+  width: 70%;
 
   margin-bottom: 50px;
 
@@ -126,28 +148,32 @@ input{
 
   text-align: center;
   outline: none;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  
+  text-align-last: center;
 }
 
+.campo_botao {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 
 .button{
-  
-  margin: auto;
   background-color: black;
   font-family: "Kulim Park";
   color: white;
-  font-size: 15px;
+  font-size: 130%;
   border: 1px solid;
   border-radius: 10px;
   padding: 10px;
   width: 100%;
+  margin-bottom: 100%;
+  outline: none;
 }
 
-button:hover {  
+.button:hover {  
   text-shadow: 3px 1px 1px rgb(0, 0, 0);
   transition: 0.1s;
   color: #ff5b15;
@@ -162,4 +188,24 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.botao_cadastro {
+  background-color: black;
+  font-family: "Kulim Park";
+  color: white;
+  font-size: 130%;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 100%;
+  outline: none;
+}
+
+.botao_cadastro:hover {  
+  text-shadow: 3px 1px 1px rgb(0, 0, 0);
+  transition: 0.1s;
+  color: #ff5b15;
+  cursor: pointer;
 }

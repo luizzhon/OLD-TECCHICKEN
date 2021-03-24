@@ -86,13 +86,14 @@ margin-top: 10px;
   border-color: orange;
     display: flex;
     justify-self: center;
+    justify-content: center;
     align-self: center;
 
 }
 
 .left_login{
   height: 100%;
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -102,7 +103,7 @@ margin-top: 10px;
   
 .right_cadastro{
   height: 100%;
-  width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -110,23 +111,19 @@ margin-top: 10px;
 }
 
 input{
-  height: 5%;
-  width: 40%;
+  height: 7%;
+  width: 50%;
 
   margin-bottom: 50px;
 
   border-radius: 5px;
 
-  font-size: 20px;
+  font-size: 150%;
   font-family:"Kulim Park";
 
   text-align: center;
   outline: none;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 
@@ -136,14 +133,15 @@ input{
   background-color: black;
   font-family: "Kulim Park";
   color: white;
-  font-size: 15px;
+  font-size: 130%;
   border: 1px solid;
   border-radius: 10px;
   padding: 10px;
   width: 100%;
+  outline: none;
 }
 
-button:hover {  
+.button:hover {  
   text-shadow: 3px 1px 1px rgb(0, 0, 0);
   transition: 0.1s;
   color: #ff5b15;
