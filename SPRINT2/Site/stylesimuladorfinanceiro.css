@@ -1,0 +1,133 @@
+::-webkit-scrollbar {
+    width: 0.1px;
+}
+
+body{
+    margin: 0 0 0 0 ;
+    font-family: "Kulim Park";
+}
+
+.header{
+    background-color: #8E0E7F;
+    padding-top: 2px;
+    padding-bottom: 6px;
+    border-bottom: 3px solid #FF5B15;
+}
+
+.container{
+    width: 98%;
+    margin: auto;
+}
+
+.logo{
+    height: 90%;
+    width: 15%;
+}
+
+.navbar{
+    float: right;
+    text-transform: uppercase;
+    padding-top: 1%;
+    font-weight: bold;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {  
+    text-shadow: 3px 1px 1px rgb(0, 0, 0);
+    transition: 0.1s;
+    color: #FF5B15;
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 25px;
+    color: white;
+}
+
+.simulador_li {
+    color: rgb(255, 166, 0);
+}
+    
+.section {
+    text-align: center;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-image: url(henhouse.jpg);
+    background-size: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}    
+
+.simulador{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #B37B4A;
+    border-radius: 7px;
+    background-color: rgba(229, 213, 158, 0.7);
+    margin: auto;
+    width: 59%;
+    font-family: "Montserrat";
+    height: 100%;
+    padding-bottom: 20%;
+}   
+
+.simulacao_titulo {
+    transform-style: unset; 
+    padding-top: 5%;
+    font-size: 40px;
+}
+
+.input_simulador{
+    border-radius: 3px;
+    width: 40%;
+    margin: auto;
+    border-color: white;
+    margin-top: 1%;
+    height: 100%;
+    font-size: 19px;
+    text-align: center;
+}
+
+.div_in_simulador {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.select_planos {
+    font-family: "Montserrat";
+    font-weight: bold;
+    width: 20%;
+    margin: auto;
+}
+
+.img_plano_mensal {
+    background-image: url(LILCHICKEN.gif);  
+}
+
+.img_plano_anual {
+    background-image: url(LILCHICKEN.gif);
+}
+
+.planos_botao {
+    font-family: "Montserrat";
+    font-size: 100%;
+    width: 20%;
+    color: white;
+    background-color: #F9AE48;
+    margin-top: 3%;
+}
+
+.footer{
+    text-align: center;
+    font-weight: bold;
+    background-color: #8E0E7F;
+    height: 15%;
+    margin: 0 0 0 0;
+    color: rgb(255, 187, 0);
+}
