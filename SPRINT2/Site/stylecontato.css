@@ -55,30 +55,21 @@ ul li a:hover {
 
 .Caixa-Roxa {
 background-color: #8e0e7f;
-height: 20vh;
-}
-
-.Fale{
+text-align: center;
+padding-top: 2%;
+padding-bottom: 2%;
+padding-right: 2%;
+border-bottom: 3px solid #ff5b15 ;
+font-family: 'MontSerrat';
+font-weight: 700;
+width: 100%;
+margin: auto;
+margin-top: 5%;
 color: white;
-left: 50%;
-top: 13%;
-position: absolute;
+text-align: center;
+font-size: 50px;
 }
-
-.Contato {
-transform: translate(-50%,-50%);
-top: 50%;
-left: 50%;
-position: absolute;
-width: 600px;
-background-color: black;
-height: 200px;
-}
-
-.Contato h1 {
-color: #8e0e7f;
-}
-
-.Contato p {
-color: white;
+.section {
+  background-image: url(tresgalinhas.jpg);
+  background-size: 100%;
 }
