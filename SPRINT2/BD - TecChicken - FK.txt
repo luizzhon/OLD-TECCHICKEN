@@ -1,0 +1,83 @@
+CREATE DATABASE TecChicken;
+USE TecChicken;
+
+CREATE TABLE cliente(
+    -> idcliente,, int primary key auto_increment,
+    -> nome varchar (40) NOT NULL,
+    -> cpf char (11) NOT NULL,
+    -> telefone varchar (20) NOT NULL,
+    -> email varchar (50) NOT NULL,
+    -> senha varchar (30) NOT NULL
+    -> );
+
+DESC cliente;
++-----------+--------------+------+-----+---------+----------------+
+| Field     | Type         | Null | Key | Default | Extra          |
++-----------+--------------+------+-----+---------+----------------+
+| idcliente | int          | NO   | PRI | NULL    | auto_increment |
+| nome      | varchar(100) | NO   |     | NULL    |                |
+| cpf       | char(11)     | NO   |     | NULL    |                |
+| telefone  | varchar(20)  | NO   |     | NULL    |                |
+| email     | varchar(50)  | NO   |     | NULL    |                |
+| senha     | varchar(30)  | NO   |     | NULL    |                |
++-----------+--------------+------+-----+---------+----------------+
+
+CREATE TABLE granja(
+    -> idgranja int primary key auto_increment,
+    -> logradouro varchar(40),
+    -> complemento varchar(30),
+    -> cidade varchar(40),
+    -> cep char(8),
+    -> estado varchar(25),
+    -> fkcliente int,
+    -> foreign key (fkcliente) references cliente(idcliente)
+    -> )auto_increment = 10000;
+
+DESC granja;
++-------------+-------------+------+-----+---------+----------------+
+| Field       | Type        | Null | Key | Default | Extra          |
++-------------+-------------+------+-----+---------+----------------+
+| idgranja    | int         | NO   | PRI | NULL    | auto_increment |
+| logradouro  | varchar(40) | YES  |     | NULL    |                |
+| complemento | varchar(30) | YES  |     | NULL    |                |
+| cidade      | varchar(40) | YES  |     | NULL    |                |
+| cep         | char(8)     | YES  |     | NULL    |                |
+| estado      | varchar(25) | YES  |     | NULL    |                |
+| fkcliente   | int         | YES  | MUL | NULL    |                |
++-------------+-------------+------+-----+---------+----------------+
+
+CREATE TABLE sensor(
+    -> idsensor int primary key auto_increment,
+    -> tiposensor varchar(10) default 'LM35',
+    -> temperatura float default 20.00,
+    -> diatemp datetime default current_timestamp,
+    -> check (tiposensor = 'LM35'),
+    -> fkgranja int,
+    -> foreign key (fkgranja) references granja(idgranja)
+    -> ) auto_increment = 10000;
+
+DESC sensor;
++-------------+-------------+------+-----+-------------------+-------------------+
+| Field       | Type        | Null | Key | Default           | Extra             |
++-------------+-------------+------+-----+-------------------+-------------------+
+| idsensor    | int         | NO   | PRI | NULL              | auto_increment    |
+| tiposensor  | varchar(10) | YES  |     | LM35              |                   |
+| temperatura | float       | YES  |     | 20                |                   |
+| diatemp     | datetime    | YES  |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
+| fkgranja    | int         | YES  | MUL | NULL              |                   |
++-------------+-------------+------+-----+-------------------+-------------------+
+
+ALTER TABLE granja RENAME COLUMN logradouro to endereco;
+DESC granja;
+
++-------------+-------------+------+-----+---------+----------------+
+| Field       | Type        | Null | Key | Default | Extra          |
++-------------+-------------+------+-----+---------+----------------+
+| idgranja    | int         | NO   | PRI | NULL    | auto_increment |
+| endereco    | varchar(40) | YES  |     | NULL    |                |
+| complemento | varchar(30) | YES  |     | NULL    |                |
+| cidade      | varchar(40) | YES  |     | NULL    |                |
+| cep         | char(8)     | YES  |     | NULL    |                |
+| estado      | varchar(25) | YES  |     | NULL    |                |
+| fkcliente   | int         | YES  | MUL | NULL    |                |
++-------------+-------------+------+-----+---------+----------------+
