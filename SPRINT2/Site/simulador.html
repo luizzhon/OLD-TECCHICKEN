@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador Financeiro</title>
+
+    <link rel="stylesheet" href="stylesimuladorfinanceiro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:wght@200;700&display=swap" rel="stylesheet">
+    <!-- "Kulim Park" -->
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,300&display=swap" rel="stylesheet">
+    <!-- "Montserrat" -->
+
+    <link rel="icon" href="icone.png">
+    <script src="simuladorfinanceiro.js"></script>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+
+            <a href="index.html"><img src="LogoDeitada.png" alt="Logo TecChicken" class="logo"></a>
+
+            <ul class="navbar">
+                <li><a href="sobre.html">Quem somos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="simulador.html" class="simulador_li">Simulador</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+
+        </div>
+    </div>
+
+
+    <div class="section">
+        <div class="container">
+            <div class="simulador">
+                
+                <h1 class="simulacao_titulo">Faça uma simulação</h1>
+                <h2 class="simulacao_subtitulo">Analise a sua economia com nossos planos</h2>
+
+               <div class="div_in_simulador">
+                <input id="input_metroquadrado" placeholder="Área em m²" class="input_simulador">
+                <input id="input_qtdgalinhas" class="input_simulador" placeholder="Quantidade de galinhas na granja">
+               </div>
+
+                <p><select id="select_planos" class="select_planos">
+                    <option value="mensal" class="img_plano_mensal">Plano mensal</option>
+                    <option value="anual" class="img_plano_anual">Plano anual</option>
+                </select></p>
+
+                <button class="planos_botao" onclick="abc()">Simule</button>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div id="div_resultado">
+        
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+            
+            <span class="rodapetxt">© 2021 by TecChicken, Todos os direitos reservados.</span>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script>
+    function abc() {
+        alert("CSS É horrível")
+        
+    }
+</script>
