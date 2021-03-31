@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="stylelogin.css">
   <link rel="icon" type="imagem/png" href="icone.png">
   <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:wght@200;700&display=swap" rel="stylesheet">
+  <script src="scriptlogin.js"></script>
   <title>TEC CHICKEN</title>
 </head>
 
@@ -36,11 +37,11 @@
 
         <p class="texto">Já sou um cliente</p>
 
-        <input id="login" type="text" placeholder="Login">
+        <input id="email" type="text" placeholder="Login">
 
-        <input id="senha" type="password" placeholder="Senha">
+        <input id="senha" placeholder="Senha" type="password">
 
-        <a href="logged.html"><button class="button">Entrar</button></a>
+        <a><button onclick="login()" class="button">Entrar</button></a>
 
       </div>
 
@@ -48,10 +49,8 @@
 
         <p class="texto">Quero ser um cliente</p>
 
-        <input id="e-mail" type="email" placeholder="E-mail">
-
-        <input id="senha" type="password" placeholder="Senha">
-
+        <input id="emailcadastro" type="email" placeholder="E-mail">
+        <input id="senhacadastro" type="password" placeholder="Senha">
         <a href="cadastro.html"><button class="button">Cadastre-se</button></a>
 
       </div>
@@ -59,5 +58,3 @@
 </body>
 
 </html>
-<script src=" script.js">
-</script>
