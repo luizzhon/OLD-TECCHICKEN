@@ -108,6 +108,7 @@ ul li a:hover {
     font-weight: bold;
     width: 20%;
     margin: auto;
+    cursor: pointer;
 }
 
 
@@ -118,6 +119,12 @@ ul li a:hover {
     color: white;
     background-color: #F9AE48;
     margin-top: 3%;
+    cursor: pointer;
+}
+
+.planos_botao a:hover{
+    font-size: 100%;
+    background-color: black;
 }
 
 .footer{
