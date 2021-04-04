@@ -35,9 +35,9 @@ insert into cliente values (null, 'João Silva', '45120114785','11 - 958412565',
 
 -- Inserindido dados na tabela sensor.          
 insert into sensor (idSensor, tipoSensor, temperatura) values
-            (null, 'LM35', '21º'),
-            (null, 'LM35', '18º'),
-            (null, 'LM35', '30º');
+            (null, 'LM35', '21ºC'),
+            (null, 'LM35', '18ºC'),
+            (null, 'LM35', '30ºC');
             
 -- Inserindido dados na tabela granja.
 insert into granja values 
