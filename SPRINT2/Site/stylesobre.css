@@ -18,8 +18,7 @@ body {
   
   .logo {
     margin-left: 1%;
-    width: 15%;
-    height: 90%;
+    height: 100%;
     float: left;
   }
   
@@ -239,6 +238,9 @@ body {
   }
 
   .text_rodape{
-    position: relative;
-    top: 3px;
+    padding-top: 5px;
+  }
+
+  h4{
+    margin: 0;
   }
