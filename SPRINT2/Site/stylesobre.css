@@ -54,17 +54,25 @@ body {
 
   }
   /* ----------------------------------------------Imagem Galinha------------------------------------------------------- */
-  .img_g{
-    width: 100%;
+  .img_galinha{
+    text-align: center;
+    background-image: url('img/img1_galinha.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 670px;
+  }
+
+  .container{
+    width: 75%;
+    margin: auto;
   }
 
   .galinha{
     color: #FFC000;
-    position: absolute;
-    left: 32%;
-    top: 49%;
     font-size: 90px;
     font-weight: bold;
+    padding-top: 268px;
+    margin: 0;
   }
   /* -----------------------------------------------Texto Quem Somos------------------------------------------------------------ */
   .text_QuemSomos{
@@ -74,7 +82,18 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
   }
+
+  .container_two{
+    width: 65%;
+    margin: auto;
+  }
   /* -----------------------------------------------Time------------------------------------------------------------ */
+  
+  .container_three{
+    width: 80%;
+    margin: auto;
+  }
+  
   .time{
     background: #7E008C;
     height: 718px;
@@ -84,109 +103,49 @@ body {
     color: #FFC000;
     font-size: 45px;
     font-weight: bold;
-    margin-left: 545px;
-    position: relative;
-    top: 60px;
+    text-align: center;
+    padding-top: 40px;
   }
 
-  .bolinha_Amarela1{
+  .container_ball{
+    float: left;
+    width: 32%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .bolinha_Amarela{
     background: #FFC000;
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    position: relative;
-    top: 350px;
-    left: 110px;
+    margin: auto;
   }
 
-  .bolinha_Amarela2{
-    background: #FFC000;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    position: relative;
-    bottom: 80px;
-    left: 350px;
+  .container_balltwo{
+    float: left;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-left: 17%;
+    margin-top: 6%;
+  }
+  
+  .container_ballthree{
+    float: left;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-left: 4%;
+    margin-top: 6%;
   }
 
-  .bolinha_Amarela3{
-    background: #FFC000;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    position: relative;
-    bottom: 50px;
-    left: 660px;
-  }
-
-  .bolinha_Amarela4{
-    background: #FFC000;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    position: relative;
-    bottom: 480px;
-    left: 950px;
-  }
-
-  .bolinha_Amarela5{
-    background: #FFC000;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    position: relative;
-    bottom: 450px;
-    left: 1210px;
-  }
-
-  .text_antonio{
+  .text{
     font-size: 22px;
     font-weight: bold;
     color: white;
     text-align: center;
-    position: absolute;
-    left: 56px;
-    top: 220px;
-  }
-
-  .text_brunno{
-    font-size: 22px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    position: absolute;
-    left: 70px;
-    top: 220px;
-  }
-
-  .text_gustavo{
-    font-size: 22px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    position: absolute;
-    left: 52px;
-    top: 220px;
-  }
-
-  .text_luiz{
-    font-size: 22px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    position: absolute;
-    left: 77px;
-    top: 220px;
-  }
-
-  .text_vitoria{
-    font-size: 22px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    position: absolute;
-    left: 63px;
-    top: 220px;
+    margin-top: 15px;
   }
 
   .img_foto{
@@ -194,7 +153,6 @@ body {
     height: 180px;
     border-radius: 100px;
     margin-top: 10px;
-    margin-left: 10px;
   }
 
   /* -----------------------------------------------Text Serviços------------------------------------------------------------ */
@@ -215,119 +173,47 @@ body {
      height: 1156px;
    }
 
+   .container_roxo{
+    width: 85%;
+    margin: auto;
+    text-align: center;
+   }
+
    .text_como_faremos_isso{
      color: #7E008C;
      font-size: 30px;
-     position: absolute;
-     margin-top: 60px;
-     margin-left: 630px;
+     text-align: center;
+     padding-top: 4%;
+     padding-bottom: 4%;
    }
 
-   .bolinha_Roxa1{
-    background: #7E008C;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    position: relative;
-    top: 230px;
-    left: 110px;
-  }
+   .container_ball_roxo{
+    float: left;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+   }
 
-  .bolinha_Roxa2{
-    background: #7E008C;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    position: relative;
-    top: 30px;
-    left: 380px;
-  }
+   .container_ball_roxo_two{
+    float: left;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    margin-top: 22%;
+   }
 
-  .bolinha_Roxa3{
+   .bolinha_Roxa{
     background: #7E008C;
     width: 200px;
     height: 200px;
     border-radius: 100px;
-    position: relative;
-    bottom: 170px;
-    left: 650px;
-  }
-
-  .bolinha_Roxa4{
-    background: #7E008C;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    position: relative;
-    bottom: 370px;
-    left: 920px;
-  }
-
-  .bolinha_Roxa5{
-    background: #7E008C;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    position: relative;
-    bottom: 570px;
-    left: 1200px;
-  }
-
-  .bolinha_Roxa6{
-    background: #7E008C;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    position: relative;
-    bottom: 310px;
-    left: 110px;
-  }
-
-  .bolinha_Roxa7{
-    background: #7E008C;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    position: relative;
-    bottom: 510px;
-    left: 380px;
-  }
-
-  .bolinha_Roxa8{
-    background: #7E008C;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    position: relative;
-    bottom: 710px;
-    left: 650px;
-  }
-
-  .bolinha_Roxa9{
-    background: #7E008C;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    position: relative;
-    bottom: 910px;
-    left: 920px;
-  }
-
-  .bolinha_Roxa10{
-    background: #7E008C;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
-    position: relative;
-    bottom: 1110px;
-    left: 1200px;
+    margin: auto;
   }
 
   .img_icone{
     width: 120px;
     height: 120px;
     margin-top: 37px;
-    margin-left: 39px;
   }
 
   .text_bolinha{
