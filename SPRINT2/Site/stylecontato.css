@@ -12,11 +12,11 @@ body {
   }
 
   .cabecalho {
-    padding-top: 0px;
+    padding-top: 0%;
     background: #8e0e7f;
     width: 100%;
-    height: 100px;
-    padding-bottom: 0px;
+    height: 100%;
+    padding-bottom: 0%;
     overflow: auto;
     border-bottom: 3px solid #ff5b15 ;
     font-size: 21px;
@@ -67,10 +67,10 @@ body {
     margin: auto;
     text-align: center;
     border-bottom: 3px solid #ff5b15 ;
-    font-family: 'MontSerrat';
+    font-family: 'times new roman';
     font-weight: 1000;
     color: #8E0E7F;
-    font-size: 30px;
+    font-size: 32px;
     }
 
 .texto_superior {
@@ -86,7 +86,7 @@ body {
 
 .Contato {
   width: 100%;
-  height: 300px;
+  height: 300%;
   display: flex;
   margin-bottom: 16%;
   margin-top: 16%;
@@ -122,26 +122,26 @@ body {
 }
 
 .Contato-info p {
-  line-height: 60px;
+  line-height: 100%;
   color: white;
   font-size: 31px;
   opacity: 1;  
 }
 
 .wpp {
-  width: 8%;
+  width: 9%;
   top: 1.7vh;
   position: relative;
 }
 
 .fone {
   width: 4%;
-  top: 0.5vh;
+  top: 0.5%;
   position: relative;
 }
 
 .email {
-  width: 4%;
+  width: 5%;
   top: 0.2vh;
   position: relative;
 }
@@ -150,10 +150,8 @@ body {
   text-align: center;
   font-weight: bold;
   background-color: #8E0E7F;
-  height: 15%;
   margin: 0 0 0 0;
-  color: #ff5106 ;
-  position: relative;
-  height: 20PX;
-  font-size: 25px;
+  color:#FFC000;
+  height: 30%;
+  font-size: 23px;
 } 
