@@ -9,6 +9,7 @@
 	<script src="http://www.chartjs.org/samples/latest/utils.js"></script>
 	<link href="https://fonts.googleapis.com/css2?family=Kulim+Park:wght@200;300;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<style>
 		canvas {
 			-moz-user-select: none;
@@ -16,35 +17,49 @@
 			-ms-user-select: none;
 		}
 	</style>
-	<link rel="stylesheet" href="style_api.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap" rel="stylesheet">
 </head>
 
 <body>
 	<div class="cabecalho">
-		<a href="index.html"><img class="logo" src="LogoDeitada.png" alt=""></a>
+		<a href="index.html"><img class="logo" src="img/LogoDeitada.png" alt=""></a>
 		<nav>
 		  <ul>
 			<li><a href="index.html">Home</a></li>
 			<li><a href="sobre.html">Quem Somos</a></li>
 			<li><a href="contato.html">Contato</a></li>
 			<li><a href="simulador.html">Simulador</a></li>
-			<li><a href="login.html">Sair</a></li>
+			<li class="header_amarelo">Olá Fernando!</li>
 		  </ul>
 		</nav>
 	  </div>
 	<div>
-		<h1>Sensor LM35 - Temperatura</h1>
-			<section>
-				<h2>Média: <label id='average'>0.00</label></h2>
-				<h2>Média Hora: <label id='averageHour'>0.00</label></h2>
-			</section>
-			<section class="grafico">
-				<canvas id="chart"></canvas>
-		<section>
+		<div class="esquerda">
+			<div class="container">
+				<nav class="menu_amarelo">
+					<li class="lista_amarela"><a href=""><img src="img/linha-do-grafico.png" class="icon"> Gráfico</a></li>
+					<li class="lista_amarela"><a href=""><img src="img/engrenagem.png" class="icon"> Configurção</a></li>
+					<li class="lista_amarela"><a href=""><img src="img/apresentacao.png" class="icon"> Dados Pessoais</a></li>
+					<li class="lista_amarela"><a href=""><img src="img/sair.png" class="icon"> Sair</a></li>
+				</nav>
+			</div>
+		</div>
+		<div class="direita">
+			<div>
+				<h1>Sensor LM35 - Temperatura</h1>
+					<section>
+						<h2>Média: <label id='average'>0.00</label></h2>
+						<h2>Média Hora: <label id='averageHour'>0.00</label></h2>
+					</section>
+					<section class="grafico">
+						<canvas id="chart"></canvas>
+				<section>
+					<p class="parametro">Tabela de parâmetro de temperatura</p>
+					<img src="img/tabela-de-parametro.png" class="tabela">
+			</div>
+		</div>
 	</div>
-	<div class="meia66">
+	<div class="rodape"><h4 class="text_rodape">© 2021 by Tec Chicken. Todos os direitos reservados.</h4></div>
+	<!-- <div class="meia66">
 		<section>
 			<h1>Sensor DHT11 - Umidade</h1>
 			<h2>Média: <label id='averageHumidity'>0.00</label></h2>
@@ -71,7 +86,7 @@
 		<section style="width:100%">
 			<canvas id="chart-lumi"></canvas>
 		<section>
-	</div>
+	</div> -->
 	<script>
 		
 		var context = document.getElementById("chart").getContext("2d");
@@ -414,7 +429,6 @@
         }, 1000);
 
 	</script>
-	<div class="rodape"><h4 class="text_rodape">© 2021 by Tec Chicken. Todos os direitos reservados.</h4></div>
 </body>
 
 </html>

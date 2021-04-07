@@ -1,3 +1,9 @@
+/* -----------------------Anulando sensores------------------------------ */
+.meia66{
+    display: none;
+}
+/* -----------------------Anulando sensores------------------------------ */
+
 body {
     margin: 0;
     padding: 0;
@@ -14,6 +20,7 @@ body {
     padding-bottom: 0px;
     overflow: auto;
     border-bottom: 3px solid #ff5b15 ;
+    font-family: 'Kulim Park', sans-serif;
   }
   
   .logo {
@@ -41,8 +48,7 @@ body {
     font-weight: bold;
   
   }
-  a:link 
-  { 
+  a:link { 
   text-decoration:none; 
   } 
 
@@ -53,6 +59,98 @@ body {
 
   }
 
+  .header_amarelo{
+      background-color:#FFC000;
+      width: 80px;
+      height: 10px;
+      border-radius: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #8e0e7f;
+      font-weight: bold;
+   }
+
+  /* ---------------------------------------------------------Conteúdo Direita---------------------------------------------------------- */
+  
+  .esquerda{
+      float: left;
+      background-color: #FFC000;
+      height: 670.5px;
+      width: 21%;
+      margin-top: 0;
+   }
+
+   .menu_amarelo{
+       text-align: center;
+       list-style: none;
+   }
+
+   .container{
+       width: 90%;
+       margin: auto;
+   }
+  
+   .lista_amarela{
+    margin-top: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:#8e0e7f;
+    font-weight: bold;
+    border-radius: 20px;
+   }
+
+   .lista_amarela a{
+    color: #FFC000;
+   }
+
+   .icon{
+       width: 15px;
+       height: 15px;
+       margin-top: 3px;
+   }
+ 
+  
+  /* ---------------------------------------------------------Conteúdo Esquerda---------------------------------------------------------- */
+  .diereita{
+    float: right;
+}
+  h1{
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding-top: 30px;
+  }
+
+  section{
+      text-align: center;
+      color: black;
+  }
+
+  .grafico {
+    width: 55%;
+    margin: 0;
+    margin-left: 33%;
+  }
+
+  .parametro{
+      text-align: center;
+      color: black;
+      font-style: italic;
+      font-size: 23px;
+  }
+
+  .tabela{
+      /* width: 640px;
+      height: 100px; */
+      width: 80%;
+      height: 25%;
+      margin-top: 10px;
+      margin-bottom: 8%;
+  }
   /* ---------------------------------------------------------Rodapé---------------------------------------------------------- */
 
   .rodape{
@@ -62,7 +160,7 @@ body {
     font-weight: bold;
     font-size: 17px;
     text-align: center;
-    margin-top: 103px;
+    font-family: 'Kulim Park', sans-serif;
   }
 
   .text_rodape{
@@ -72,3 +170,4 @@ body {
   h4{
     margin: 0;
   } 
+
