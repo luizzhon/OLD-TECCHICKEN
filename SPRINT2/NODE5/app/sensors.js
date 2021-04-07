@@ -1,10 +1,11 @@
 function lm35(min, max) {
-    min = typeof min == 'undefined' ? 18 : min;
-    max = typeof max == 'undefined' ? 25 : max;
+    min = typeof min == 'undefined' ? 12 : min;
+    max = typeof max == 'undefined' ? 31 : max;
     
     let random = Math.random() * (max - min) + min;
 
     return random
+    
 }
 
 function trc5000() {
@@ -50,6 +51,7 @@ function dht11(options){
 
     minHumidity = typeof minHumidity == 'undefined' ? 20 : minHumidity;
     maxHumidity = typeof maxHumidity == 'undefined' ? 80 : maxHumidity;
+
 
     let randomHumidity = Math.floor(Math.random()*(maxHumidity-minHumidity+1)+minHumidity);
     
