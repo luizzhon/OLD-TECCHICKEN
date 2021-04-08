@@ -1,5 +1,5 @@
 ::-webkit-scrollbar {
-    width: 0.1px;
+    
 }
 
 body{
@@ -9,25 +9,21 @@ body{
 
 .header{
     background-color: #8E0E7F;
-    padding-top: 2px;
-    padding-bottom: 6px;
     border-bottom: 3px solid #FF5B15;
-}
-
-.container{
-    width: 98%;
-    margin: auto;
+    height: 80px;
+    width: 100%;
+    margin: 0;
 }
 
 .logo{
-    height: 90%;
-    width: 15%;
+    height: 80px;
+    margin-left: 1%;
 }
 
 .navbar{
     float: right;
     text-transform: uppercase;
-    padding-top: 1%;
+    padding-top: 1.2%;
     font-weight: bold;
 }
 
@@ -42,7 +38,7 @@ ul li a {
 
 ul li a:hover {  
     text-shadow: 3px 1px 1px rgb(0, 0, 0);
-    transition: 0.1s;
+    transition: 0.5s;
     color: #FF5B15;
 }
 
@@ -52,86 +48,293 @@ ul li a:hover {
     color: white;
 }
 
-.simulador_li {
-    color: rgb(255, 166, 0);
+.planos_li {
+    color: #B1B1B1;
+    cursor: not-allowed;
 }
-    
-.section {
-    text-align: center;
-    margin: auto;
+.planos_li:hover {
+    transition: 0.5s;
+    opacity: 0.4;
+    color:#B1B1B1;
+
+}
+
+/* BANNER */
+
+.banner {
+    margin: 0;
+    background-image: url(planos.jpg);
     background-repeat: no-repeat;
-    background-image: url(henhouse.jpg);
-    background-size: 100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}    
+    background-attachment: fixed;
+    padding-top: 14%;
+    padding-bottom: 19%;
+    background-size: cover;
 
-.simulador{
-    border-width: 3px;
-    border-style: solid;
-    border-color: #B37B4A;
-    border-radius: 7px;
-    background-color: rgba(229, 213, 158, 0.7);
+}
+.container {
+    width: 80%;
     margin: auto;
-    width: 59%;
-    font-family: "Montserrat";
-    height: 100%;
-    padding-bottom: 20%;
-}   
-
-.simulacao_titulo {
-    transform-style: unset; 
-    padding-top: 5%;
-    font-size: 40px;
 }
 
-.input_simulador{
-    border-radius: 3px;
-    width: 40%;
-    margin: auto;
-    border-color: white;
-    margin-top: 1%;
-    height: 100%;
-    font-size: 19px;
-    text-align: center;
-}
-
-.div_in_simulador {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    margin-top: 5%;
-}
-
-.select_planos {
-    font-family: "Montserrat";
-    font-weight: bold;
-    width: 20%;
-    margin: auto;
-    cursor: pointer;
-}
-
-
-.planos_botao {
-    font-family: "Montserrat";
-    font-size: 100%;
-    width: 20%;
+.banner h1 {
     color: white;
-    background-color: #F9AE48;
-    margin-top: 3%;
+    margin: 0;
+    font-family: "Montserrat";
+   
+    font-size: 100px;
+    font-weight: 1200;
+}
+
+.destaque {
+    color: #8736AA;
+    width: 20%;
+}
+
+/* PLANOS */
+
+.nossos_planos {
+    background-color: #8736AA;
+    align-items: center;
+    text-align: center;
+    overflow: auto;
+    padding-bottom: 4%;
+}
+
+.nossos_planos li {
+    list-style: none;
+}
+.nossos_planos ul {
+    margin: 0;
+    padding: 0;
+}
+.nossos_planos ul li::before {
+    content: '';
+    display: inline-block;
+    height: 25px;
+    width: 35px;
+    background-image: url('chicken-item.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: -35px;
+}
+
+.nossos_planos h2 {
+    margin: 0;
+    padding-top: 6%;
+    padding-bottom: 3%;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 5%;
+    color: white;
+    font-family: "Montserrat";
+    font-size: 32px;
+}
+.nossos_planos .destaque {
+    color: #FFC000;
+}
+
+.plano_mensal {
+    font-size: 17px;
+    background-color: white;
+    float: left;
+    width: 48%;
+    margin-right: 3%;
+    border-radius: 13px;
+    padding-bottom: 3%;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.um_ano{
+    font-size: 19px;
+    text-decoration-style: none;
+    color: #5c5a5a;
+    margin-right: 1%;
+    width: 80%;
+    margin: auto;
+}
+.preco_pacote {
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
+}
+.preco {
+    font-size: 51px;
+}
+.plano_mensal ul li {
+    color: #232323;
+}
+
+.plano_mensal h3 {
+    font-size: 30px;
+    color: white;
+    background-color: #ED5B45;
+    border-radius: 3px;
+    margin: 0;
+    margin-bottom: 5%;
+}
+
+.plano_anual {
+    font-size: 17px;
+    margin-left: 1%;
+    background-color: white;
+    float: left;
+    width: 48%;
+    border-radius: 13px;
+    overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 8px 16px 0 rgba(0,0,0,0.4);
+
+}
+
+.plano_anual h3 {
+    font-size: 30px;
+    color: white;
+    background-color: #FFC000;
+    border-radius: 3px;
+    margin: 0;
+    margin-bottom: 5%;
+
+} 
+
+.plano_anual ul li {
+    color: #232323;
+}
+
+.plano_anual h4 {
+    color: #8736AA;
+    background-color: #FFC000;
+    width: 30%;
+    margin-bottom: 0;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    border-radius: 3px;
+}
+
+/* BOTÃO */
+
+.faixa_botao{
+    width: 100%;
+    background-color: #FFFFFF;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+}
+
+.faca_uma_simulacao {
+    padding: 1.2% 0 1.2% 0;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 1px solid #FF5B15;
+    color: #FF5B15;
+    font-size: 23px;
+    font-family: 'Kulim Park';
+    width: 25%;
+    margin-left: 40%;
     cursor: pointer;
+    
+}
+.pintinho {
+    height: 40px;
+    padding-left: 2%;
 }
 
-.planos_botao a:hover{
-    font-size: 100%;
-    background-color: black;
+.faca_uma_simulacao:hover {
+    background-color: #FF5B15;
+    color: white;
+    transition: 0.5s;
 }
 
-.footer{
+/* SIMULADOR */
+
+.simulador {
+   background-image: url(Simulador_background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   padding-bottom: 5%;
+   
+}
+.simulador h2 {
+    margin: 0;
+    color: #FFFFFF;
+
+    font-size: 40px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    padding-top: 4%;
+    margin-bottom: 4%;
+}
+
+.div_simulador {
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    border: 3px solid #FFFFFF;
+    border-radius: 5%;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10%;
+}
+
+.div_simulador h3 {
+    color: #FFFFFF;
+    font-size: 233%;
+    font-family: 'Montserrat';
+    margin: 0;
+    margin-top: 7%;
+    margin-bottom: 6%;
+    width: 100%;
+}
+
+.simulador_inputs {
+  height: 7%;
+  width: 50%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  font-size: 123%;
+  font-family:"Kulim Park";
+  text-align: center;
+  outline: none;
+}
+
+.simulador_select {
+    align-items: center;
+    width: 25%;
+    font-family: "Kulim Park";
+    font-size: 123%;
+    border-radius: 5px;
+    margin: 0 25% 8% 25%;
+}
+
+.simulador_botao {
+    height: 42px;
+    width: 30%;
+    margin: auto;
+    background-color: rgba(0,0,0,0);
+    font-family: "Kulim Park";
+    color: white;
+    font-size: 130%;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+  }
+
+.simulador_botao:hover {
+  transition: 0.5s;
+  color: #ff5b15;
+}
+
+
+/* RODAPÉ */
+
+/* .footer{
     text-align: center;
     font-weight: bold;
     background-color: #8E0E7F;
     height: 15%;
     margin: 0 0 0 0;
     color: rgb(255, 187, 0);
-}
+} */

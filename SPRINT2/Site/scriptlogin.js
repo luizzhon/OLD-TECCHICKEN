@@ -1,9 +1,7 @@
-
-
 function login() {
   var email1 = email.value;
   var senha1 = senha.value;
-  if (email1 == "" && senha1 == "") {
+  if (email1 == "" || senha1 == "") {
     alert("Preencha todos os campos.");
   }
   else if (email1 == "granja@gmail.com" && senha1 == "123") {
