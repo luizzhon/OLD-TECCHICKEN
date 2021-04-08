@@ -3,29 +3,29 @@ body {
     padding: 0;
     border: 0;
     font-family: 'Kulim Park';
-    background-image: url(img/tresgalinhas.png);
+    background-image: url(tresgalinhas.png);
     background-color: #FFC000;
     background-blend-mode: luminosity;
     background-repeat: no-repeat;
     background-size: cover;
+
   }
 
   .cabecalho {
-    background-color: #8E0E7F;
-    border-bottom: 3px solid #FF5B15;
-    height: 100px;
+    padding-top: 0%;
+    background: #8e0e7f;
     width: 100%;
-    margin: 0;
-    /* padding-top: 0%; */
+    height: 100%;
     padding-bottom: 0%;
-    /* overflow: auto; */
-    font-size: 22px; 
+    overflow: auto;
+    border-bottom: 3px solid #ff5b15 ;
+    font-size: 21px;
   }
   
   .logo {
-    margin-left: 2%;
+    margin-left: 1%;
     width: 15%;
-    height: 110%;
+    height: 90%;
     float: left;
   }
   
