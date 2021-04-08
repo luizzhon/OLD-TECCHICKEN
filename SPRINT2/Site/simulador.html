@@ -22,59 +22,82 @@
 <body>
 
     <div class="header">
-        <div class="container">
-
             <a href="index.html"><img src="LogoDeitada.png" alt="Logo TecChicken" class="logo"></a>
 
             <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
                 <li><a href="sobre.html">Quem somos</a></li>
                 <li><a href="contato.html">Contato</a></li>
-                <li><a href="simulador.html" class="simulador_li">Simulador</a></li>
+                <li><a href="simulador.html" class="simulador_li">Planos</a></li>
                 <li><a href="login.html">Login</a></li>
             </ul>
-
-        </div>
     </div>
 
-
-    <div class="section">
+    <div class="banner">
         <div class="container">
-            <div class="simulador">
-                
-                <h1 class="simulacao_titulo">Faça uma simulação</h1>
-                <h2 class="simulacao_subtitulo">Analise a sua economia com nossos planos</h2>
+            
+            <h1>Nossos <span class="destaque">planos</span></h1>
 
-               <div class="div_in_simulador">
-                <input id="input_metroquadrado" placeholder="Área em m²" class="input_simulador">
-                <input id="input_qtdgalinhas" class="input_simulador" placeholder="Quantidade de galinhas na granja">
-               </div>
-
-                <p>
-                    <select id="select_planos" class="select_planos">
-                        <option value="mensal" >Plano mensal</option>
-                        <option value="anual" >Plano anual</option>
-                    </select>
-                </p>
-
-                <button class="planos_botao" onclick="simular()">Simule</button>
-
-
-            </div>
         </div>
     </div>
 
-    <div id="div_resultado">
+    <div class="nossos_planos">
+        <div class="container">
+            <h2>Descubra o <span class="destaque">melhor</span> plano para o seu negócio</h2>
+            
+            <div class="plano_mensal">
+                <h3>Plano mensal</h3>
+                <span class="um_ano">Um ano por xxx,xx à vista, ou</span> <br>
+                <span class="preco_pacote">R$ <span class="preco">xx,xx</span>/mês</span>
+
+               <ul>
+                <li>Lorem ipsum dolor sit amet lorem ioio yeah yeah.</li>
+                <li>Lorem ipsum dolor sit amet lorem ioio yeah yeah.</li>
+                <li>Lorem ipsum dolor sit amet lorem ioio yeah yeah.</li>
+                <li>Lorem ipsum dolor sit amet lorem ioio yeah yeah.</li>
+               </ul> 
+            </div>
+
+            <div class="plano_anual">
+                <h3>Plano anual</h3>
+                <span class="um_ano">Um ano por xxx,xx em até 12x, ou</span> <br>
+                <span class="preco_pacote">R$ <span class="preco">xx,xx</span>/mês</span>
+
+               <ul>
+                   <li>Lorem ipsum dolor sit amet lorem ioio yeah yeah.</li>
+                   <li>Lorem ipsum dolor sit amet lorem ioio yeah yeah.</li>
+                   <li>Lorem ipsum dolor sit amet lorem ioio yeah yeah.</li>
+                   <li>Lorem ipsum dolor sit amet lorem ioio yeah yeah.</li>
+                   <li>Lorem ipsum dolor sit amet lorem ioio yeah yeah.</li>
+                   <li>Lorem ipsum dolor sit amet lorem ioio yeah yeah.</li>
+               </ul>
+               <h4>Recomendado</h4>
+            </div>
+            
+        </div>
+    </div>
+         
+    <div class="faixa_botao">
+        <div class="container">
         
+        <a href="#simulador"><button class="faca_uma_simulacao">Faça uma simulação</button></a>
+
+        </div>
+    </div>
+
+    <div class="simulador">
+        <div class="container"></div>
     </div>
 
 
-    <div class="footer">
+    
+    <!-- <div class="footer">
         <div class="container">
             
             <span class="rodapetxt">© 2021 by TecChicken, Todos os direitos reservados.</span>
 
         </div>
-    </div>
+    </div> -->
 
 </body>
 
