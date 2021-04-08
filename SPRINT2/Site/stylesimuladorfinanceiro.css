@@ -66,7 +66,7 @@ ul li a:hover {
     background-image: url(planos.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-top: 16%;
+    padding-top: 14%;
     padding-bottom: 15%;
     background-size: cover;
 
@@ -248,6 +248,8 @@ ul li a:hover {
    background-image: url(Simulador_background.jpg);
    background-repeat: no-repeat;
    background-size: cover;
+   background-attachment: fixed;
+   padding-bottom: 5%;
    
 }
 .simulador h2 {
