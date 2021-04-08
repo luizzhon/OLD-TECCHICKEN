@@ -48,8 +48,15 @@ ul li a:hover {
     color: white;
 }
 
-.simulador_li {
+.planos_li {
     color: #B1B1B1;
+    cursor: not-allowed;
+}
+.planos_li:hover {
+    transition: 0.5s;
+    opacity: 0.4;
+    color:#B1B1B1;
+
 }
 
 /* BANNER */
@@ -79,7 +86,7 @@ ul li a:hover {
 }
 
 .destaque {
-    color: #FF5B15;
+    color: #8736AA;
     width: 20%;
 }
 
@@ -127,7 +134,7 @@ ul li a:hover {
 }
 
 .plano_mensal {
-    font-size: 19px;
+    font-size: 17px;
     background-color: white;
     float: left;
     width: 48%;
@@ -135,6 +142,7 @@ ul li a:hover {
     border-radius: 13px;
     padding-bottom: 3%;
     overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .um_ano{
     font-size: 19px;
@@ -166,13 +174,14 @@ ul li a:hover {
 }
 
 .plano_anual {
-    font-size: 19px;
+    font-size: 17px;
     margin-left: 1%;
     background-color: white;
     float: left;
     width: 48%;
     border-radius: 13px;
     overflow: auto;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4), 0 8px 16px 0 rgba(0,0,0,0.4);
 
 }
 
@@ -205,22 +214,116 @@ ul li a:hover {
 
 .faixa_botao{
     width: 100%;
-    background-color: #FFC000;
+    background-color: #FFFFFF;
     padding-top: 1.2%;
     padding-bottom: 1.2%;
 }
+
 .faca_uma_simulacao {
     padding: 1.2% 0 1.2% 0;
-    background-color: #FF5B15;
-    color: white;
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 1px solid #FF5B15;
+    color: #FF5B15;
     font-size: 23px;
     font-family: 'Kulim Park';
     width: 25%;
     margin-left: 40%;
+    cursor: pointer;
+    
+}
+.pintinho {
+    height: 40px;
+    padding-left: 2%;
+}
+
+.faca_uma_simulacao:hover {
+    background-color: #FF5B15;
+    color: white;
+    transition: 0.5s;
 }
 
 /* SIMULADOR */
 
+.simulador {
+   background-image: url(Simulador_background.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+.simulador h2 {
+    margin: 0;
+    color: #FFFFFF;
+
+    font-size: 40px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    width: 45%;
+    margin: auto;
+    text-align: center;
+    padding-top: 4%;
+    margin-bottom: 4%;
+}
+
+.div_simulador {
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    border: 3px solid #FFFFFF;
+    border-radius: 5%;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 10%;
+}
+
+.div_simulador h3 {
+    color: #FFFFFF;
+    font-size: 233%;
+    font-family: 'Montserrat';
+    margin: 0;
+    margin-top: 7%;
+    margin-bottom: 6%;
+    width: 100%;
+}
+
+.simulador_inputs {
+  height: 7%;
+  width: 50%;
+  margin-bottom: 5%;
+  border-radius: 5px;
+  font-size: 123%;
+  font-family:"Kulim Park";
+  text-align: center;
+  outline: none;
+}
+
+.simulador_select {
+    align-items: center;
+    width: 25%;
+    font-family: "Kulim Park";
+    font-size: 123%;
+    border-radius: 5px;
+    margin: 0 25% 8% 25%;
+}
+
+.simulador_botao {
+    height: 42px;
+    width: 30%;
+    margin: auto;
+    background-color: rgba(0,0,0,0);
+    font-family: "Kulim Park";
+    color: white;
+    font-size: 130%;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+  }
+
+.simulador_botao:hover {
+  transition: 0.5s;
+  color: #ff5b15;
+}
 
 
 /* RODAPÉ */

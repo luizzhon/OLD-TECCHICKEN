@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simulador Financeiro</title>
+    <title>Planos</title>
 
     <link rel="stylesheet" href="stylesimuladorfinanceiro.css">
     <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:wght@200;700&display=swap" rel="stylesheet">
@@ -28,7 +28,7 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="sobre.html">Quem somos</a></li>
                 <li><a href="contato.html">Contato</a></li>
-                <li><a href="simulador.html" class="simulador_li">Planos</a></li>
+                <li><a href="simulador.html" class="planos_li">Planos</a></li>
                 <li><a href="login.html">Login</a></li>
             </ul>
     </div>
@@ -79,14 +79,31 @@
          
     <div class="faixa_botao">
         <div class="container">
-        
-        <a href="#simulador"><button class="faca_uma_simulacao">Faça uma simulação</button></a>
+
+            <a href="#simulador"><button class="faca_uma_simulacao">Faça uma simulação</button></a>
+            <img src="chicken.png" alt="lil pinto caminhando" class="pintinho">
 
         </div>
     </div>
 
-    <div class="simulador">
-        <div class="container"></div>
+    <div class="simulador" id="simulador">
+        <div class="container">
+            <h2>Simulador Financeiro</h2>
+
+            <div class="div_simulador">
+                <div class="container">
+                  <h3>Descreva a granja</h3>
+                  <input class="simulador_inputs" id="in_galinhas" placeholder="Quantidade de galinhas">
+                  <input class="simulador_inputs" id="in_metroquadrado" placeholder="Tamanho em m²">
+                  <select class="simulador_select" id="select_plano">
+                      <option value="1">Plano mensal</option>
+                      <option value="2">Plano anual</option>
+                  </select>
+                  <button onclick="simular()" class="simulador_botao">Simular</button>
+               </div>
+            </div>
+
+        </div>
     </div>
 
 
