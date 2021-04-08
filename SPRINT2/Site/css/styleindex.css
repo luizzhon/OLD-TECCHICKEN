@@ -60,7 +60,7 @@
   text-align: center;
   }
   #home {
-    background-image: url("fundo1.jpeg") ;
+    background-image: url("../img/fundo1.jpeg") ;
     background-repeat: no-repeat;
     background-size: cover;
   }
