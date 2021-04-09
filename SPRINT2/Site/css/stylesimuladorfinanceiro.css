@@ -331,11 +331,14 @@ ul li a:hover {
 
 /* RODAPÉ */
 
-/* .footer{
-    text-align: center;
+.footer{
+    background-color: #7E008C;
+    color:#FFC000;
+    font-size: 18px;
     font-weight: bold;
-    background-color: #8E0E7F;
-    height: 15%;
-    margin: 0 0 0 0;
-    color: rgb(255, 187, 0);
-} */
+    text-align: center;
+    margin: auto;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+}
+
