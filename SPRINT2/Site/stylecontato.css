@@ -20,7 +20,7 @@ body {
     padding: 0;
     border: 0;
     font-family: 'Kulim Park';
-    background-image: url(img/umagalinha.jpg);
+    background-image: url('./img/umagalinha.jpg');
     background-color: transparent;
     /* background-blend-mode: luminosity; */
     background-repeat: no-repeat;
