@@ -13,6 +13,7 @@ body{
     height: 80px;
     width: 100%;
     margin: 0;
+    position: fixed;
 }
 
 .logo{
@@ -63,7 +64,7 @@ ul li a:hover {
 
 .banner {
     margin: 0;
-    background-image: url(planos.jpg);
+    background-image: url('../img/planos.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding-top: 14%;
@@ -112,7 +113,7 @@ ul li a:hover {
     display: inline-block;
     height: 25px;
     width: 35px;
-    background-image: url('chicken-item.png');
+    background-image: url('../img/chicken-item.png');
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: -35px;
@@ -245,7 +246,7 @@ ul li a:hover {
 /* SIMULADOR */
 
 .simulador {
-   background-image: url(Simulador_background.jpg);
+   background-image: url('../img/Simulador_background.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
