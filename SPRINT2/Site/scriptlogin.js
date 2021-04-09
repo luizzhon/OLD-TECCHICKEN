@@ -4,9 +4,9 @@ function login() {
   if (email1 == "" || senha1 == "") {
     alert("Preencha todos os campos.");
   }
-  else if (email1 == "granja@gmail.com" && senha1 == "123") {
+  else if (email1 == "admin" && senha1 == "123") {
     alert("Login Efetivado");
-    window.location.href = "graficos.html";
+    window.location.href = "../NODE5/index.html";
     setTimeout("login()", 2500)
   }
   else {
