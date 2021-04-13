@@ -1,6 +1,3 @@
-::-webkit-scrollbar {
-    
-}
 
 body{
     margin: 0 0 0 0 ;
@@ -293,20 +290,13 @@ ul li a:hover {
   width: 50%;
   margin-bottom: 5%;
   border-radius: 5px;
-  font-size: 123%;
+  font-size: 158%;
   font-family:"Kulim Park";
   text-align: center;
   outline: none;
 }
 
-.simulador_select {
-    align-items: center;
-    width: 25%;
-    font-family: "Kulim Park";
-    font-size: 123%;
-    border-radius: 5px;
-    margin: 0 25% 8% 25%;
-}
+
 
 .simulador_botao {
     height: 42px;
@@ -321,14 +311,38 @@ ul li a:hover {
     padding: 10px;
     outline: none;
     cursor: pointer;
+    
   }
 
 .simulador_botao:hover {
   transition: 0.5s;
   color: #ff5b15;
 }
+/* RESULTADO DA SIMULAÇÃO */
 
+.resultado_simulacao {
+    padding-top: 5%;
+    padding-bottom: 4%;
+    font-size: 120%;
 
+}
+.resultado_simulacao h2 {
+    margin: 0;
+}
+.prejuizos {
+    color: red;
+    padding-bottom: 1%;
+}
+.ganhos_com_tecchicken {
+    padding-top: 3%;
+    padding-bottom: 1%;
+
+}
+
+.resultado_simulacao .faca_uma_simulacao{
+    margin-top: 3%;
+
+}
 /* RODAPÉ */
 
 .footer{
