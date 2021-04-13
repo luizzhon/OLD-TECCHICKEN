@@ -22,7 +22,6 @@ body {
     font-family: 'Kulim Park';
     background-image: url('../img/umagalinha.jpg');
     background-color: transparent;
-    /* background-blend-mode: luminosity; */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -111,7 +110,7 @@ body {
   width: 30%;
   height: 350px;
   text-align: center;
-  background-color: rgba(142, 14, 127, 0.7);
+  background-color: rgba(126, 0, 140, 0.7);
   font-size: 20px;
   border-radius: 10%;
   font-weight: bold;
@@ -156,12 +155,12 @@ body {
 }
 
 .footer{
-  text-align: center;
-  font-weight: bold;
-  background-color: #8E0E7F;
-  margin: 0;
-  color:#FFC000;
-  height: 24px;
-  font-size: 18px;
-  padding-top: 5px;
+  background-color: #7E008C;
+    color: #FFC000;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin: auto;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
 } 
