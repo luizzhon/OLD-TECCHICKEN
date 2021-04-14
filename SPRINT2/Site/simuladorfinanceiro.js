@@ -1,4 +1,6 @@
 function simular() {
+   
+    
     var metro_quadrado = Number(in_metroquadrado.value);
     var qtd_galinhas = Number(in_galinhas.value);
    
@@ -7,14 +9,21 @@ function simular() {
     var economia_plano_mensal = perca_total - 5040;
     var economia_plano_anual = perca_total - 4200;
 
+    var preju_galinhas = preju_galinhas.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    var perca_total = perca_total.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    var economia_plano_mensal = economia_plano_mensal.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+    var economia_plano_anual = economia_plano_anual.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+
     div_resultado.style.display = 'block'
 
     quantidade_galinhas.innerHTML = `${qtd_galinhas}`;
-    prejuizo_galinhas.innerHTML = `R$${preju_galinhas.toFixed(2)};`
-    economia_mensal.innerHTML = `R$${economia_plano_mensal.toFixed(2)}`;
-    economia_anual.innerHTML = `R$${economia_plano_anual.toFixed(2)}`;
+    prejuizo_galinhas.innerHTML = `${preju_galinhas}`
+    economia_mensal.innerHTML = `${economia_plano_mensal}`;
+    economia_anual.innerHTML = `${economia_plano_anual}`;
     
-    p_total.innerHTML = `R$${perca_total.toFixed(2)}`;
+    p_total.innerHTML = `${perca_total}`;
+
+  
 }
 
 // Um arduíno por 50m²

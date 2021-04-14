@@ -1,4 +1,6 @@
-
+html {
+    scroll-behavior: smooth;
+}
 body{
     margin: 0 0 0 0 ;
     font-family: "Kulim Park";
@@ -344,6 +346,7 @@ ul li a:hover {
     margin-top: 3%;
 
 }
+
 /* RODAPÉ */
 
 .footer{
