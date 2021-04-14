@@ -324,6 +324,7 @@ ul li a:hover {
     padding-top: 5%;
     padding-bottom: 4%;
     font-size: 120%;
+    display: none;
 
 }
 .resultado_simulacao h2 {
