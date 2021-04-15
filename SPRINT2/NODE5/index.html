@@ -101,7 +101,12 @@
 					label: "Temperatura x Tempo",
 					type: 'line',
 					borderColor: ['#8e0e7f'],
-					backgroundColor: ['rgba(255,255,255,0.0)']
+					backgroundColor: ['rgba(255,255,255,0.0)'],
+					// Configuração do ponto
+					pointBorderColor: [],
+					pointStyle: 'circle',
+					pointRadius: 5,
+					pointBorderWidth: 3
 				}]
 			},
 			options: {
@@ -119,7 +124,9 @@
 							labelString: 'Temperatura'
                         },
                         ticks: {
-                            beginAtZero:true
+                            // beginAtZero:true,
+							min: 10,
+							max: 38,
                         }
 					}]
 				},
@@ -166,8 +173,36 @@
                 chart.update();
 			});
 			
+			var valores_temp = chart.config.data.datasets[0].data
+
+
+			for (let i = 0; i < valores_temp.length; i++) {
+				if (valores_temp[i] <= 13.0) {
+					chart.data.datasets[0].pointBorderColor[i] = '#182799';
+					chart.update();
+				}
+				if (valores_temp[i] <= 20.3 && valores_temp[i] > 13.0) {
+					chart.data.datasets[0].pointBorderColor[i] = '#0099ff';
+					chart.update();
+				}
+				if (valores_temp[i] >= 27.6 && valores_temp[i] < 35.0) {
+					chart.data.datasets[0].pointBorderColor[i] = '#FFA500';
+					chart.update();
+				}
+				if (valores_temp[i] >= 35.0) {
+					chart.data.datasets[0].pointBorderColor[i] = '#FF0000';
+					chart.update();
+				}
+				if (valores_temp[i] > 20.3 && valores_temp[i] < 27.6) {
+					chart.data.datasets[0].pointBorderColor[i] = '#008000';
+					chart.update();
+				}
+			}
+
 			document.getElementById('average').textContent = obj.average;
 			document.getElementById('averageHour').textContent = obj.averageHour;
+
+			// console.log("valores de temperatura: ", chart.config.data.datasets[0].data)
 		} 
 
 		//Second Graphic
