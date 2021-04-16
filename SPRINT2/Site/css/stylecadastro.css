@@ -3,10 +3,12 @@ body {
   padding: 0;
   border: 0;
   height: 100vh;
-  background-image: url("img/fundo1.jpeg") ;
+  background-image: url("../img/fundo1.jpeg") ;
   background-repeat: no-repeat;
   background-size: 100%;
   font-family: "Kulim Park";
+  overflow-y: hidden;
+
 }
 
 .tela_inteira {
@@ -84,14 +86,23 @@ margin-top: 10px;
   opacity: 70%;
   border: solid;
   border-color: orange;
-    display: flex;
+    flex-direction: row;
     justify-self: center;
-    justify-content: center;
     align-self: center;
-
 }
 
-.left_login{
+.formulario {
+  height: 10%;
+  width: 100%;
+}
+
+.campos_cadastro{
+  display: flex;
+  height: 75%;
+  justify-content: center;
+}
+
+.left_cadastro{
   height: 100%;
   width: 40%;
   display: flex;
@@ -111,10 +122,10 @@ margin-top: 10px;
 }
 
 input{
-  height: 7%;
-  width: 50%;
+  height: 10%;
+  width: 70%;
 
-  margin-bottom: 50px;
+  margin-bottom: 5%;
 
   border-radius: 5px;
 
@@ -123,13 +134,35 @@ input{
 
   text-align: center;
   outline: none;
-
+  
 }
 
+select{
+  height: 10%;
+  width: 70%;
+
+  margin-bottom: 5%;
+
+  border-radius: 5px;
+
+  font-size: 20px;
+  font-family:"Kulim Park";
+
+  text-align: center;
+  outline: none;
+  
+  text-align-last: center;
+}
+
+.campo_botao {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 
 .button{
-  
-  margin: auto;
   background-color: black;
   font-family: "Kulim Park";
   color: white;
@@ -138,6 +171,7 @@ input{
   border-radius: 10px;
   padding: 10px;
   width: 100%;
+  margin-bottom: 100%;
   outline: none;
 }
 
@@ -156,4 +190,24 @@ input{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.botao_cadastro {
+  background-color: black;
+  font-family: "Kulim Park";
+  color: white;
+  font-size: 130%;
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 100%;
+  outline: none;
+}
+
+.botao_cadastro:hover {  
+  text-shadow: 3px 1px 1px rgb(0, 0, 0);
+  transition: 0.1s;
+  color: #ff5b15;
+  cursor: pointer;
 }

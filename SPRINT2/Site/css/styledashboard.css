@@ -1,0 +1,181 @@
+/* -----------------------Anulando sensores------------------------------ */
+.meia66{
+    display: none;
+}
+/* -----------------------Anulando sensores------------------------------ */
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Kulim Park', sans-serif;
+    overflow: hidden;
+  }
+
+  .cabecalho {
+    padding-top: 0px;
+    background: #8e0e7f;
+    width: 100%;
+    height: 80px;
+    padding-bottom: 0px;
+    overflow: auto;
+    border-bottom: 3px solid #ff5b15 ;
+    font-family: 'Kulim Park', sans-serif;
+  }
+  
+  .logo {
+    margin-left: 1%;
+    height: 100%;
+    float: left;
+  }
+  
+  .cabecalho nav {
+    float: right;
+  }
+  
+  ul {
+    list-style: none;
+    margin-top: 32px;
+  }
+  
+  ul li {
+    display: inline;
+    margin-right: 25px;
+    text-transform: uppercase;    
+  }
+  ul li a {
+    color: white;
+    font-weight: bold;
+  
+  }
+  a:link { 
+  text-decoration:none; 
+  } 
+
+  ul li a:hover {  
+    text-shadow: 3px 1px 1px rgb(0, 0, 0);
+    transition: 0.1s;
+    color: #ff5b15;
+  }
+
+  .header_amarelo{
+      background-color:#FFC000;
+      width: 80px;
+      height: 10px;
+      border-radius: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #8e0e7f;
+      font-weight: bold;
+   }
+
+  /* ---------------------------------------------------------Conteúdo Direita---------------------------------------------------------- */
+  
+  .esquerda{
+      float: left;
+      background-color: #FFC000;
+      height: 670.5px;
+      width: 21%;
+      margin-top: 0;
+   }
+
+   .menu_amarelo{
+       text-align: center;
+       list-style: none;
+   }
+
+   .container{
+       width: 90%;
+       margin: auto;
+   }
+  
+   .lista_amarela{
+    margin-top: 15%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:#8e0e7f;
+    font-weight: bold;
+    border-radius: 20px;
+    color: #FFC000;
+    cursor: pointer;
+   }
+
+   .lista_amarela a{
+    color: #FFC000;
+   }
+
+   .icon{
+       width: 15px;
+       height: 15px;
+       margin-top: 3px;
+   }
+ 
+  
+  /* ---------------------------------------------------------Conteúdo Esquerda---------------------------------------------------------- */
+  .diereita{
+    float: right;
+}
+  h1{
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding-top: 30px;
+  }
+
+  section{
+      text-align: center;
+      color: black;
+  }
+
+  .grafico {
+    width: 55%;
+    margin: 0;
+    margin-left: 33%;
+  }
+
+  .parametro{
+      text-align: center;
+      color: black;
+      font-style: italic;
+      font-size: 23px;
+  }
+
+  .tabela{
+      /* width: 640px;
+      height: 100px; */
+      width: 80%;
+      height: 25%;
+      margin-top: 10px;
+      margin-bottom: 8%;
+  }
+  /* ---------------------------------------------------------Rodapé---------------------------------------------------------- */
+
+  .rodape{
+    background-color: #7E008C;
+    color:#FFC000;
+    height: 30px;
+    font-weight: bold;
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Kulim Park', sans-serif;
+  }
+
+  .text_rodape{
+    padding-top: 5px;
+  }
+
+  h4{
+    margin: 0;
+  } 
+
+/* -----------------------------------------------Outros sensores---------------------------------------------- */
+
+  .invisivel{
+    display: none;
+  }
+
+
